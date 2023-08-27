@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GALLERY</title>
+    <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+    <main class="main">
+        <section>
+            <div class="hero">
+                <div class="nav">
+                    <div class="navbar">
+                        <div class="navlink logo">
+                            <a href="index.html"><img src="images/logo_circle_4.png" alt="main-logo"></a>
+                            
+                        </div>
+                        <div class="navlink toggle">
+                            <ion-icon name="menu"></ion-icon>
+                        </div>
+                        <nav class="navleft navitems">
+                            <div class="navlink"><a href="index.html">Home</a></div>
+                            <div class="navlink"><a href="price-list.html">Price List</a></div>
+                            <div class="navlink"><a href="about.html">About Us</a></div>
+                        </nav>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="gallery">
+                <span style="--i:1">
+                  <img src="images/IMG_7335.jpg" alt="" />
+                </span>
+                <span style="--i:2">
+                  <img src="images/IMG_7336.jpeg" alt="" />
+                </span>
+                <span style="--i:3">
+                  <img src="images/IMG_7337.jpeg" alt="" />
+                </span>
+                <span style="--i:4">
+                  <img src="images/IMG_7338.jpeg" alt="" />
+                </span>
+                <span style="--i:5">
+                  <img src="images/IMG_7343.jpeg" alt="" />
+                </span>
+                <span style="--i:6">
+                  <img src="images/IMG_7340.jpg" alt="" />
+                </span>
+                <span style="--i:7">
+                  <img src="images/IMG_7341.jpeg" alt="" />
+                </span>
+                <span style="--i:8">
+                  <img src="images/IMG_7342.jpeg" alt="" />
+                </span>
+              </div>
+
+
+
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script>
+        function classToggle() {
+      const navs = document.querySelectorAll('.navitems')
+      
+      navs.forEach(nav => nav.classList.toggle('navbartoggleshow'));
+    }
+    
+    document.querySelector('.toggle')
+      .addEventListener('click', classToggle);
+    </script>
+</body>
+</html>
