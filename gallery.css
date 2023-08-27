@@ -204,3 +204,9 @@ body{
         max-width: 90rem;
     }
   }
+
+@media only screen and (max-width: 450px) {
+    .gallery{
+        margin-top: 10rem;
+      }
+}
