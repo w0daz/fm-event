@@ -170,7 +170,7 @@ body{
     transform-style:preserve-3d;
     animation:rotate 35s linear infinite;
     margin-top: 10rem;
-  }
+  }f
   
   @keyframes rotate{
     from{
