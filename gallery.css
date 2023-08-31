@@ -64,13 +64,13 @@ body {
 .navbar {
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    padding: 0.5rem;
     font-family: sans-serif;
     color: #facb48;
 }
 
 .navlink > a > img {
-    width: 6rem;
+    width: 9rem;
 }
 
 .navitems {
