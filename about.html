@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FM ABOUT</title>
+    <link rel="icon" href="images/logo_circle_4.png" type="image/x-icon">
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <main class="main">
+        <section>
+            <div class="hero">
+                <div class="nav">
+                    <div class="navbar">
+                        <div class="navlink logo">
+                            <a href="index.html"><img src="images/logo_circle_4.png" alt="main-logo"></a>
+                            
+                        </div>
+                        <div class="navlink toggle">
+                            <ion-icon name="menu"></ion-icon>
+                        </div>
+                        <nav class="navleft navitems">
+                            <div class="navlink"><a href="index.html">Home</a></div>
+                            <div class="navlink"><a href="gallery.html">Gallery</a></div>
+                            <div class="navlink"><a href="price-list.html">Price List</a></div>
+                        </nav>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="about">
+                <div class="image-wrapper">
+                <img src="images/founder.jpg" alt="">
+                <a href="https://www.instagram.com/fm.event.decoration/">Anu Adewusi <span>Founder | CEO</span></a>
+             </div>
+                <div class="abouttext">
+                    <p>We're the creative minds behind unforgettable moments. What began as a humble venture has blossomed into a thriving event decoration business that brings dreams to life. From intimate gatherings to grand celebrations, we've dedicated ourselves to turning every occasion into a masterpiece.<br>
+                        <br>
+
+                        Our journey began on a small scale, fueled by passion and a vision to transform spaces into enchanting experiences. With each event, we've poured our heart and soul into crafting unique decorations that capture the essence of your special moments. As we've grown, so has our commitment to delivering excellence.<br>
+                        <br>
+                        
+                        From elegant weddings to vibrant parties, our team of skilled artisans and designers are experts in curating captivating decorations that tell your story. We pride ourselves on attention to detail, innovation, and a personal touch that sets us apart.<br>
+                        <br>
+                        
+                        Thank you for letting us be part of your journey. Together, let's continue to paint joy, beauty, and radiance onto the canvas of your events.</p>
+                </div>
+            </div>
+            <img src="images/about_bottom.jpg" alt="">
+
+            <div class="footer">
+                <div class="footertext">
+                    <a href="tel:8622375804"><ion-icon name="call" class="footericon"></ion-icon>8622375804</a>
+                    <a href="tel:7173798091"><ion-icon name="call" class="footericon"></ion-icon>7173798091</a>
+                    <a href="mailto:mclemon20@gmail.com"><ion-icon name="mail" class="footericon"></ion-icon>mclemon20@gmail.com</a>
+                </div>
+                <a href="https://bio.link/beespoke">built by beespoke <span><img src="images/logo_tres_.png" alt="attribution-logo"></span></a>
+            </div>
+        </section>
+
+
+    </main>
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script>
+        function classToggle() {
+      const navs = document.querySelectorAll('.navitems')
+      
+      navs.forEach(nav => nav.classList.toggle('navbartoggleshow'));
+    }
+    
+    document.querySelector('.toggle')
+      .addEventListener('click', classToggle);
+    </script>
+
+</body>
+</html>

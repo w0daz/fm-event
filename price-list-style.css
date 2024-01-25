@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+ul,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+img,
+picture {
+max-width: 100%;
+display: block;
+}
+
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+body {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    font-family: 'Roboto', sans-serif;
+    color: #fc9918;
+    /*  */
+}
+
+.main {
+    min-width: 20rem;
+    max-width: 25rem;
+    background-color: #282d31;
+}
+
+.hero {
+    padding: 1.5rem 2rem 0 ;
+}
+
+
+/* start of nav */
+.navbar {
+    /* background-color: hsl(192, 97%, 31%); */
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    font-family: sans-serif;
+    color: #facb48;
+}
+
+.navlink > a > img {
+    width: 9rem;
+}
+
+.navitems {
+    display: flex;
+    flex-direction: column;
+    column-gap: 2rem;
+    /* visibility: hidden; */
+    display: none;
+    align-items: end;
+    padding-top: 1rem;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.navright {
+    margin-left: 0;
+}
+
+.toggle {
+    font-size: 1.6em;
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+}
+
+.navbartoggleshow {
+    display: flex;
+    align-items: end;
+    gap: 0.8rem;
+}
+
+.navlink > a {
+    text-decoration: none;
+    color: #facb48;
+}
+
+.navlink > a:hover {
+    cursor: pointer;
+    color: #fcda7e;
+}
+
+@media only screen and (min-width: 600px) {
+    .navbar, .navitems {
+        flex-direction: row;
+    }
+
+    .navbar {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+
+    .navright {
+        margin-left: auto;
+    }
+
+    .navitems {
+        display: flex;
+        margin-left: auto;
+        padding-top: 0;
+        /* visibility: visible; */
+        font-size: 1.28em;
+    }
+
+    .navlink > a > img {
+        width: 10rem;
+    }
+
+    .toggle {
+        display: none;
+    }
+
+    .navlink > a {
+        color: #ffffff;
+    }
+    
+    .navlink > a:hover {
+        color: #f0fd7b;
+    }
+}
+
+.cards {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.5rem;
+    margin-top: 5rem;
+    margin-bottom: 1.5rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.5rem;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box > h3 {
+    font-size: 1.7em;
+    width: 80%;
+    margin-bottom: 0.5rem;
+    color: #e4a701;
+}
+/* end of cards */
+
+.advert {
+    text-align: center;
+    background-color: #fc9918;
+    padding: 4rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+    /* line-height: 3.6rem;  */
+}
+
+.advert > h3 {
+    color: #da3e00;
+    font-size: 1.7em;
+}
+
+.advert > a {
+    text-decoration: none;
+    color: #fdc985;
+    background-color: #fd3b00;
+    padding: 1rem 5rem 1rem 1.5rem;
+    padding: 0.6rem 1.5rem;
+    font-size: 1.27em;
+    font-weight: 900;
+    border-radius: 2rem;
+    margin: 0 2rem;
+}
+
+.advert > a:hover {
+    color: #fcead4;
+    background-color: #fc5a29;
+}
+
+.attribution > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #b42a00;
+    font-size: 0.7em;
+    font-weight: 600;
+    display: flex;
+    gap: 0.3rem;
+    padding: 3rem 0 0.5rem 0;
+}
+
+.attribution > a:hover {
+    color: #611401;
+}
+
+.attribution > a > span > img {
+    width: 1rem;
+}
+
+@media only screen and (min-width: 600px) {
+
+.main {
+    min-width: 37.5rem;
+    max-width: 90rem;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: start;
+    justify-content: center;
+}
+
+.cards {
+    gap: 3rem;
+    margin-top: 7rem;
+}
+
+.box > h3 {
+    width: 70%;
+}
+
+.cardThree {
+    transform: translateX(15rem);
+}
+
+section > img {
+    content: url(images/price-list_bottom-desktop.jpg);
+}
+/* end of cards */
+
+.advert {
+    padding: 3rem 0 0 0;
+    gap: 1.8rem;
+}
+
+.advert > h3 {
+    font-size: 2.5em;
+}
+
+.advert > a {
+    padding: 0.6rem 1.5rem;
+    font-size: 2.1em;
+    border-radius: 3rem;
+    /* margin: 0 38rem; */
+    width: 15rem;
+    margin: 0 auto;
+}
+
+}
