@@ -219,21 +219,79 @@ section > img {
     -o-transition: all .5s ease;
     transition: all .5s ease;
   }
+
+
   .ag-courses_item:nth-child(2n) .ag-courses-item_bg {
-    background-color: #3ecd5e;
-  }
-  .ag-courses_item:nth-child(3n) .ag-courses-item_bg {
-    background-color: #e44002;
-  }
-  .ag-courses_item:nth-child(4n) .ag-courses-item_bg {
     background-color: #952aff;
   }
+  .ag-courses_item:nth-child(3n) .ag-courses-item_bg {
+    background-color: #ffa600;
+  }
+  .ag-courses_item:nth-child(4n) .ag-courses-item_bg {
+    background-color: #2a2aff;
+  }
   .ag-courses_item:nth-child(5n) .ag-courses-item_bg {
-    background-color: #cd3e94;
+    background-color: #1fa767;
   }
   .ag-courses_item:nth-child(6n) .ag-courses-item_bg {
-    background-color: #4c49ea;
+    background-color: #ea4949;
   }
+
+  .ag-courses_item:nth-child(7n) .ag-courses-item_bg {
+    background-color: #62b73a;
+  }
+
+  .ag-courses_item:nth-child(8n) .ag-courses-item_bg {
+    background-color: #a87123;
+  }
+
+  .planningimg {
+    background-image: url(images/IMG_73351.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .decorationimg {
+    background-image: url(images/IMG_73361.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .rentalsimg {
+    background-image: url(images/IMG_73381.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .clothimg {
+    background-image: url(images/IMG_73411.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .chaircoversimg {
+    background-image: url(images/IMG_73421.jpg);
+    background-position: center;
+    background-size: cover;
+    }
+
+    .throneimg {
+        background-image: url(images/IMG_73431.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .canopiesimg {
+        background-image: url(images/IMG_73401.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .centerpiecesimg {
+        background-image: url(images/IMG_73371.jpg);
+        background-position: center;
+        background-size: cover;
+    }
   /* cards ending */
   
   
