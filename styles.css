@@ -597,7 +597,7 @@ section > img {
     position: relative;
     text-align: center;
     width: 100%;
-    background-color: #df7904;
+    background-color: #f7ddbf;
     border-radius: 5px;
     border-top: 5px solid #ca4300;
   }
@@ -633,7 +633,7 @@ section > img {
   }
   
   .snip1533 h3 {
-    color: #dad7d7;
+    color: #000000;
     font-size: 1.125em;
     font-weight: 300;
     line-height: 24px;
